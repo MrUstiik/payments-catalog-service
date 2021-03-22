@@ -5,7 +5,7 @@
     "baseName": "PaymentsCatalogService",
     "packageName": "com.ftr.dgb.payments.catalog",
     "packageFolder": "com/ftr/dgb/payments/catalog",
-    "serverPort": 8089,
+    "serverPort": "8089",
     "serviceDiscoveryType": false,
     "authenticationType": "jwt",
     "uaaBaseName": "../uaa",
@@ -16,15 +16,15 @@
     "devDatabaseType": "h2Memory",
     "prodDatabaseType": "postgresql",
     "searchEngine": false,
-    "enableSwaggerCodegen": "true",
+    "enableSwaggerCodegen": true,
     "messageBroker": false,
     "buildTool": "gradle",
     "useSass": true,
     "clientPackageManager": "npm",
     "testFrameworks": [],
     "enableTranslation": true,
-    "nativeLanguage": "en",
-    "languages": ["ru", "ua", "en"],
+    "nativeLanguage": "ua",
+    "languages": ["ua", "en", "ru"],
     "clientFramework": "angularX",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "6.10.5",
@@ -37,9 +37,11 @@
     "blueprints": [],
     "skipClient": true,
     "skipUserManagement": true,
-    "prettierJava": true
+    "prettierJava": true,
+    "reactive": true
   },
   "git-provider": "GitHub",
   "git-company": "MrUstiik",
-  "repository-name": "payments-catalog-service"
+  "repository-name": "payments-catalog-service",
+  "entities": []
 }

@@ -1,0 +1,22 @@
+application {
+  config {
+    baseName PaymentsCatalogService
+    applicationType microservice
+    serverPort 8089
+    packageName com.ftr.dgb.payments.catalog
+    buildTool gradle
+    reactive true
+
+    authenticationType jwt
+    databaseType sql
+    prodDatabaseType postgresql
+    devDatabaseType h2Memory
+    enableHibernateCache false
+    cacheProvider no
+    serviceDiscoveryType no
+
+    enableSwaggerCodegen true
+    nativeLanguage ua
+    languages [ua, en, ru]
+  }
+}
