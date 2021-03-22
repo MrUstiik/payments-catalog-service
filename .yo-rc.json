@@ -24,7 +24,11 @@
     "testFrameworks": [],
     "enableTranslation": true,
     "nativeLanguage": "ua",
-    "languages": ["ua", "en", "ru"],
+    "languages": [
+      "ua",
+      "en",
+      "ru"
+    ],
     "clientFramework": "angularX",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "6.10.5",
@@ -43,5 +47,8 @@
   "git-provider": "GitHub",
   "git-company": "MrUstiik",
   "repository-name": "payments-catalog-service",
-  "entities": []
+  "entities": [
+    "Category",
+    "CategoryAction"
+  ]
 }
